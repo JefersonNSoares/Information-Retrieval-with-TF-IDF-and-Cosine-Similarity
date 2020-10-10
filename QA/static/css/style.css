@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #2c3e50;
+    border-style: outset;
+}
+
+.box input{
+    text-align: justify;
+    border-color: chartreuse;
+    border: #2c3e50 solid 2px;
+    
+}
+.box button{
+
+    width: 100px;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+.answer-content{
+    bo
+}
