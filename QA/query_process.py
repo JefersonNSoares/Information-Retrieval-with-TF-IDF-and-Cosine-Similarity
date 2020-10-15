@@ -23,7 +23,9 @@ def query_process(texto_entrada):
                     texto_consulta.append(entrada[0])
 
     return str(texto_consulta)
-
+'''
+#-----------Exemplo----------------
 x = query_process("O rato roeu a ropa do rei de roma")
 y = pre_processamento_texto(x)
 print(y)
+'''
