@@ -8,9 +8,11 @@ def index():
         question = request.form.get('question') if request.form.get('question') is not None else ""
         print(question)
         if len(question) > 0:
-            answer = question
+            answer = query_process(question)#gerar frase de consulta
+            respost = similaridade_sentencas(answer)
+
             # coloca o processamento da rede aq
-            context = answer
+            context = respost
     return render_template('index.html', context=context)
 
 
